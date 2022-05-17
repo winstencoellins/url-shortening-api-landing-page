@@ -1,0 +1,52 @@
+.stats {
+    width: 100%;
+    background-color: gainsboro;
+}
+
+.headTitle {
+    width: 42.5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.statsHead {
+    font-size: 2rem;
+    color: hsl(260, 8%, 14%);
+}
+
+.statsPar {
+    color: hsl(257, 7%, 63%);
+}
+
+.statsMainContent {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.statsContent {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 30px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1250px) {
+    .headTitle {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .statsHead {
+        font-size: 1.5rem;
+    }
+
+    .statsContent {
+        display: flex;
+        flex-direction: column;
+    }
+}

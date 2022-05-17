@@ -1,0 +1,75 @@
+.cardContent {
+    width: 350px;
+    background-color: white;
+    padding: 50px 10px 20px 20px;
+    margin-top: -30px;
+    border-radius: 5px;
+}
+
+.imageC {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.cardImage {
+    background-color: hsl(260, 8%, 14%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    z-index: 3;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card:nth-child(2) {
+    margin-top: 5rem;
+}
+
+.card:nth-child(3) {
+    margin-top: 10rem;
+}
+
+.cardTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.cardPar {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: hsl(257, 7%, 63%);
+    font-weight: 100;
+}
+
+@media screen and (max-width: 1250px) {
+    .cardImage {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cardContent {
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card {
+        margin-top: 50px;
+    }
+
+    .card:nth-child(2) {
+        margin-top: 50px;
+    }
+
+    .card:nth-child(3) {
+        margin-top: 50px;
+    }
+}

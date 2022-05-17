@@ -1,0 +1,20 @@
+.boost {
+    background-image: url('../assets/images/bg-boost-desktop.svg');
+    background-color: hsl(260, 8%, 14%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0;
+    background-size: cover;
+}
+
+.boostContent {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.boostHead {
+    color: white;
+    margin-bottom: 20px;
+}
