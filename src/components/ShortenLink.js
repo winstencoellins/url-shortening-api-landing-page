@@ -26,6 +26,7 @@ function ShortenLink () {
           function modifyText () {
             btn.innerHTML = "Copied!";
             btn.style.backgroundColor = "hsl(260, 8%, 14%)";
+            navigator.clipboard.writeText(response.data.result.full_short_link)
           }
 
           btn.addEventListener('click', modifyText)
