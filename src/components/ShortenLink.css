@@ -17,6 +17,7 @@
 .shortenLinkContent {
     background-image: url('../assets/images/bg-boost-desktop.svg');
     background-color: hsl(260, 8%, 14%);
+    background-size: cover;
     display: flex;
     justify-content: center;
     padding: 40px 0;
